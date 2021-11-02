@@ -37,7 +37,8 @@ public class TestAppman {
             power--;
         }
 
-        // output
-        System.out.println(result);
+        // output and show type of ....
+        System.out.println(result + " Type of " + ((Object) result).getClass().getSimpleName());
+
     }
 }
